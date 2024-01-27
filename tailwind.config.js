@@ -1,12 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./app.vue",
+    "./error.vue",
+  ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
-        'red': '#18B6C8',
+        "emerald": "#6DFFC0"
       }
-    },
+    }
   },
   plugins: [],
 }
