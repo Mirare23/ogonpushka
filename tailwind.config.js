@@ -13,8 +13,14 @@ export default {
       center: true,
     },
     extend: {
+      fontFamily: {
+        "sans": ["'open sans'", 'sans-serif']
+      },
       colors: {
-        "emerald": "#6DFFC0"
+        "emerald": "#6DFFC0",
+        "gray": "#1F1F1F",
+        "gray2": "#959595"
+
       }
     }
   },
