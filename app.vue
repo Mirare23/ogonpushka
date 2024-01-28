@@ -1,5 +1,8 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <lenis>
+    <NuxtPage />
+  </lenis>
 </template>
+
+<script setup></script>
+<style scoped></style>
